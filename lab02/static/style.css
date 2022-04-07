@@ -1,0 +1,73 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 3vh;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    width: 250px;
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin: 3vh;
+}
+
+section {
+    width: 300px;
+    border: solid 1px #ebebeb;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+section h2, section button {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+div {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+#label {
+    margin-left: 20px;
+}
+p {
+    border-bottom-style: solid;
+    border-bottom-color: #ebebeb;
+    border-bottom-width: 1px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+
+#restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /* Media queries go here */
+}
+
+@media only screen and (max-width: 600px) {
+    /* Media queries go here */
+}
